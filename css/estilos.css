@@ -4,6 +4,9 @@ body
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   color: rgb(95, 29, 95);
+  background: gray;
+  margin: 0;
+  padding: 0;
 }
 
 #cabecera {
@@ -13,6 +16,11 @@ body
   font-weight: bold;
   margin: 0;
   padding: 0.5em;
+}
+
+#cabecera #logo {
+  width: 20px;
+  vertical-align: middle;
 }
 
 #cabecera #tagline {
@@ -26,7 +34,7 @@ body
   width: 70%;
   padding: 0;
   text-align: left;
-  border: 1px solid black;
+  border: 1px solid white;
   margin: 0 auto;
 }
 
@@ -36,4 +44,12 @@ body
 
 #post {
   padding: 1em;
+  background:white;
+}
+
+#footer {
+  background: #777;
+  color: whitesmoke;
+  text-align: center;
+  padding: 0.5em;
 }
